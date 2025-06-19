@@ -4,7 +4,7 @@ Dashboard ini dibuat untuk menganalisis pola penggunaan sepeda berdasarkan datas
 
 ## 🌐 Akses Dashboard
 Akses dashboard yang sudah dideploy di Streamlit melalui link berikut:
-[https://dicoding-ilham-mulia.streamlit.app/](https://dicoding-ilham-mulia.streamlit.app/)
+[https://dicoding-iqbal-pandu.streamlit.app/](https://dicoding-ilham-pandu.streamlit.app/)
 
 ## 📂 Struktur Direktori
 ```
