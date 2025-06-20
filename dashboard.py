@@ -73,5 +73,5 @@ elif analisis == "Pengaruh Cuaca":
     st.pyplot(plt)
 
 # Footer
-st.markdown("---")
+st.markdown("---IPP--")
 st.markdown("🚀 **Dashboard ini dibuat dengan Streamlit**")
