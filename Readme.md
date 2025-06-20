@@ -4,13 +4,13 @@ Dashboard ini dibuat untuk menganalisis pola penggunaan sepeda berdasarkan datas
 
 ## 🌐 Akses Dashboard
 Akses dashboard yang sudah dideploy di Streamlit melalui link berikut:
-[https://dicoding-iqbal-pandu.streamlit.app/](https://dicoding-ilham-pandu.streamlit.app/)
+[https://iqbal-pandu.streamlit.app/](https://iqbal-pandu.streamlit.app/)
 
 ## 📂 Struktur Direktori
 ```
 Bike-Sharing-Dashboard/
 │── Dashboard/
-│   │── run.py
+│   │── dashboard.py
 │   │── main_data.csv
 │── Data/
 │   │── Readme.txt
