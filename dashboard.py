@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Gunakan raw URL dari GitHub untuk membaca dataset langsung
-url_day = "https://raw.githubusercontent.com/ilham-mulia/Dicoding-Proyek-Analisis-Data/main/Data/day.csv"
-url_hour = "https://raw.githubusercontent.com/ilham-mulia/Dicoding-Proyek-Analisis-Data/main/Data/hour.csv"
+url_day = "https://raw.githubusercontent.com/iqbalpandu/Proyek-Analisis-Data/main/Data/day.csv"
+url_hour = "https://raw.githubusercontent.com/iqbalpandu/Proyek-Analisis-Data/main/Data/hour.csv"
 
 df_day = pd.read_csv(url_day)
 df_hour = pd.read_csv(url_hour)
@@ -16,7 +16,7 @@ df_day["hour"] = None
 # Gabungkan dataset berdasarkan tanggal (dteday)
 df_combined = pd.concat([df_day, df_hour], ignore_index=True)
 
-# url_main = "https://raw.githubusercontent.com/ilham-mulia/Dicoding-Proyek-Analisis-Data/main/Dashboard/main_data.csv"
+# url_main = "https://raw.githubusercontent.com/iqbalpandu/Proyek-Analisis-Data/main/Dashboard/main_data.csv"
 # df_combined = pd.read_csv(url_main)
 
 # Judul Dashboard
