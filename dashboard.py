@@ -30,7 +30,7 @@ analisis = st.sidebar.radio("Pilih kategori:", ["Penyewaan per Bulan", "Penyewaa
 st.sidebar.header("🎛 Filter Data")
 
 default_start_date = pd.to_datetime("2011-01-01").date()
-default_end_date = pd.to_datetime("2011-12-31").date()
+default_end_date = pd.to_datetime("2012-12-31").date()
 selected_date_range = st.sidebar.date_input("Pilih Rentang Tanggal", [default_start_date, default_end_date], min_value=pd.to_datetime("2011-01-01").date(), max_value=pd.to_datetime("2012-12-31").date())
 
 if len(selected_date_range) == 2:
