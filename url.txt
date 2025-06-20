@@ -1,1 +1,1 @@
-https://dicoding-iqbal-pandu.streamlit.app/
+https://iqbal-pandu.streamlit.app/
